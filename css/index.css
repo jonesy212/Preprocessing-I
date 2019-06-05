@@ -106,7 +106,7 @@ section {
 }
 body {
   line-height: 1;
-  background: black;
+  background: #1b1c26;
 }
 ol,
 ul {
@@ -178,13 +178,17 @@ a:hover {
 img {
   width: 400px;
   height: 375px;
-  padding-top: 40px;
+  padding-top: 30px;
+  border: solid yellow 1px;
 }
 .background-title {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 0px 60px 100px;
+  padding: 30px 0px 0px 100px;
   font-size: 40px;
   width: 80%;
   border: purple 2px solid;
+}
+.bg-paragraph {
+  font-size: 24px;
 }
